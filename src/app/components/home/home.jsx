@@ -1,4 +1,8 @@
 import React from 'react';
+
+// styles
+import './home.scss';
+
 import Header from '../header/header';
 class Home extends React.Component {
   constructor(props) {
