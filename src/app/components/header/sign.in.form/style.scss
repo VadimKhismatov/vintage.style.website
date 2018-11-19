@@ -1,0 +1,16 @@
+@import '../../../../scss/base/helpers.scss';
+
+.sign_in_form {
+  display: flex;
+  align-items: center;
+  & .password {
+    min-width: 118px;
+    height: 100%;
+    font-family: $regular3;
+    font-size: em(14);
+    color: $textinput;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+  }
+}

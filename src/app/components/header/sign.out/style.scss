@@ -1,0 +1,21 @@
+@import '../../../../scss/base/helpers.scss';
+
+.sign_out {
+  display: flex;
+  align-items: center;
+  & .field_wrap {
+    & .text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 178px;
+      height: 100%;
+      font-family: $regular3;
+      font-size: em(14);
+      color: $textinput;
+      & span {
+        color: $mainbg;
+      }
+    }
+  }
+}

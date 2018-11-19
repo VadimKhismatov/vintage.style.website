@@ -1,7 +1,8 @@
 import './header.scss';
-import React from 'react';
-
-class Header extends React.Component {
+import React, { Component } from 'react';
+import SignInForm from './sign.in.form/sign.in.form';
+import SignOut from './sign.out/sign.out';
+class Header extends Component {
   constructor(props) {
     super(props);
   }
@@ -11,7 +12,7 @@ class Header extends React.Component {
       <header className="header">
         <div className="container">
           <div className="content">
-            <a href="#" className="logo_link">
+            <a href="/" className="logo_link">
               _1981_
             </a>
 
@@ -46,14 +47,8 @@ class Header extends React.Component {
             </nav>
 
             <div className="auth_block">
-              <div className="sign_in">
-                <form action="" className="sign_in_form">
-                  <input type="password" className="sign_input sign_in_pass" id="sign_in_pass" placeholder="Enter Password" />
-                  <button type="submit" className="sign_submit">
-                    Client Sign-In
-                  </button>
-                </form>
-              </div>
+              <SignInForm />
+              {/* <SignOut /> */}
             </div>
           </div>
         </div>

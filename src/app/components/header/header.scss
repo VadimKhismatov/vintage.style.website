@@ -47,29 +47,12 @@
       & .auth_block {
         display: flex;
         align-items: center;
-        & .sign_input {
-          width: 118px;
+        padding: 0 28px 0 0;
+        & .field_wrap {
           height: 28px;
-          font-family: $regular3;
-          font-size: em(14);
-          text-align: center;
-          border: none;
           border-radius: 5px;
           box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.46), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.22);
           background-color: $inputbg;
-        }
-        & .sign_submit {
-          cursor: pointer;
-          height: 28px;
-          margin: 0 0 0 12px;
-          padding: 0 16px;
-          font-family: $regular3;
-          font-size: em(14);
-          color: $textmain;
-          border: none;
-          border-radius: 5px;
-          box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.46), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.22);
-          background-color: $mainbg;
         }
       }
     }
