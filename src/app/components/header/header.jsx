@@ -1,12 +1,8 @@
 import './header.scss';
 import React, { Component } from 'react';
-import SignInForm from './sign.in.form/sign.in.form';
-import SignOut from './sign.out/sign.out';
-class Header extends Component {
-  constructor(props) {
-    super(props);
-  }
+import AuthComponent from './auth/auth.component';
 
+class Header extends Component {
   render() {
     return (
       <header className="header">
@@ -19,37 +15,34 @@ class Header extends Component {
             <nav className="nav_menu">
               <ul className="menu_list">
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
                     Work
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
                     Contact
                   </a>
                 </li>
               </ul>
             </nav>
 
-            <div className="auth_block">
-              <SignInForm />
-              {/* <SignOut /> */}
-            </div>
+            <AuthComponent/>
           </div>
         </div>
       </header>
