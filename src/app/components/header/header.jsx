@@ -42,7 +42,7 @@ class Header extends Component {
               </ul>
             </nav>
 
-            <AuthComponent/>
+            <AuthComponent />
           </div>
         </div>
       </header>

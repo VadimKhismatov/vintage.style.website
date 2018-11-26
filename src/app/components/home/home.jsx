@@ -4,6 +4,8 @@ import React from 'react';
 import './home.scss';
 
 import Header from '../header/header';
+import FeaturedImages from '../featured.images/fetured.images';
+
 class Home extends React.Component {
   constructor(props) {
     super(props);
@@ -15,6 +17,9 @@ class Home extends React.Component {
         {/* header start  */}
         <Header />
         {/* header end  */}
+        {/* featured images start  */}
+        <FeaturedImages />
+        {/* featured images end  */}
       </>
     );
   }
