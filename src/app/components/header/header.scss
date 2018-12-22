@@ -1,1 +1,49 @@
 @import '../../../scss/base/helpers.scss';
+
+.header {
+  & .container {
+    & .content {
+      display: flex;
+      width: 100%;
+      padding: 17px 0 19px 0;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.66);
+      background-color: $mainbg2;
+
+      & .logo_link {
+        margin: 0 0 0 21px;
+        font-family: $regular1;
+        font-size: em(30);
+        color: $textmain;
+        text-decoration: none;
+      }
+
+      & .nav_menu {
+        display: flex;
+        height: 36px;
+        margin: 0 auto 0 18px;
+        border-left: 1px solid #7b7a6d;
+        & .menu_list {
+          display: flex;
+          align-items: center;
+          padding: 0 0 0 3px;
+          list-style-type: none;
+          & li {
+            & a {
+              display: block;
+              padding: 0 16px;
+              font-family: $regular3;
+              font-size: em(14);
+              color: $textmain;
+              text-decoration: none;
+              &:hover {
+                color: $texthover;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

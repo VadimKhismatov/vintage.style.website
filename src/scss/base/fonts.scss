@@ -5,8 +5,20 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'MyriadPro Regular';
+  src: url('../../fonts/MyriadPro-Regular.woff2') format('woff2'), url('../../fonts/MyriadPro-Regular.woff') format('woff'), url('../../fonts/MyriadPro-Regular.eot') format('eot');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Nikaia ItalicRegular';
   src: url('../../fonts/Nikaia_italic-webfont.woff2') format('woff2'), url('../../fonts/Nikaia_italic-webfont.woff') format('woff'), url('../../fonts/Nikaia_italic-webfont.eot') format('eot');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nikaia Script Regular';
+  src: url('../../fonts/Nikaia_script-webfont.woff2') format('woff2'), url('../../fonts/Nikaia_script-webfont.woff') format('woff'), url('../../fonts/Nikaia_script-webfont.eot') format('eot');
   font-weight: normal;
   font-style: normal;
 }

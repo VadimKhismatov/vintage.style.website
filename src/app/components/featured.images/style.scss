@@ -1,0 +1,11 @@
+@import '../../../scss/base/helpers.scss';
+
+.fi_component {
+  & .content {
+    display: flex;
+    justify-content: center;
+    & img {
+      margin: -34px 0 0 6px;
+    }
+  }
+}
