@@ -22,6 +22,11 @@ const common = merge([
       path: paths.dist,
       filename: './js/app.bundled.js',
     },
+    devServer: {
+      port: 8080,
+      hot: true,
+      inline: true,
+    },
     resolve: {
       extensions: ['.js', ' ', '.jsx', '.css', '.scss'],
     },

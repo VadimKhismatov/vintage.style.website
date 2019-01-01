@@ -1,42 +1,60 @@
 @font-face {
   font-family: 'MyriadPro Semibold';
-  src: url('../../fonts/MyriadPro-Semibold.woff2') format('woff2'), url('../../fonts/MyriadPro-Semibold.woff') format('woff'), url('../../fonts/MyriadPro-Semibold.eot') format('eot');
+  src: url('../../fonts/MyriadPro-Semibold.woff2') format('woff2'),
+    url('../../fonts/MyriadPro-Semibold.woff') format('woff'), url('../../fonts/MyriadPro-Semibold.eot') format('eot');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MyriadPro Regular';
-  src: url('../../fonts/MyriadPro-Regular.woff2') format('woff2'), url('../../fonts/MyriadPro-Regular.woff') format('woff'), url('../../fonts/MyriadPro-Regular.eot') format('eot');
+  src: url('../../fonts/MyriadPro-Regular.woff2') format('woff2'),
+    url('../../fonts/MyriadPro-Regular.woff') format('woff'), url('../../fonts/MyriadPro-Regular.eot') format('eot');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro Italic';
+  src: url('../../fonts/MyriadPro-Italic.woff2') format('woff2'),
+    url('../../fonts/MyriadPro-Italic.woff') format('woff'), url('../../fonts/MyriadPro-Italic.eot') format('eot');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Nikaia ItalicRegular';
-  src: url('../../fonts/Nikaia_italic-webfont.woff2') format('woff2'), url('../../fonts/Nikaia_italic-webfont.woff') format('woff'), url('../../fonts/Nikaia_italic-webfont.eot') format('eot');
+  src: url('../../fonts/Nikaia_italic-webfont.woff2') format('woff2'),
+    url('../../fonts/Nikaia_italic-webfont.woff') format('woff'),
+    url('../../fonts/Nikaia_italic-webfont.eot') format('eot');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Nikaia Script Regular';
-  src: url('../../fonts/Nikaia_script-webfont.woff2') format('woff2'), url('../../fonts/Nikaia_script-webfont.woff') format('woff'), url('../../fonts/Nikaia_script-webfont.eot') format('eot');
+  src: url('../../fonts/Nikaia_script-webfont.woff2') format('woff2'),
+    url('../../fonts/Nikaia_script-webfont.woff') format('woff'),
+    url('../../fonts/Nikaia_script-webfont.eot') format('eot');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Vegur Regular';
-  src: url('../../fonts/Vegur-Regular.woff2') format('woff2'), url('../../fonts/Vegur-Regular.woff') format('woff'), url('../../fonts/Vegur-Regular.eot') format('eot');
+  src: url('../../fonts/Vegur-Regular.woff2') format('woff2'), url('../../fonts/Vegur-Regular.woff') format('woff'),
+    url('../../fonts/Vegur-Regular.eot') format('eot');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Titillium 250wt';
-  src: url('../../fonts/TitilliumText14L-250wt.woff2') format('woff2'), url('../../fonts/TitilliumText14L-250wt.woff') format('woff'), url('../../fonts/TitilliumText14L-250wt.eot') format('eot');
+  src: url('../../fonts/TitilliumText14L-250wt.woff2') format('woff2'),
+    url('../../fonts/TitilliumText14L-250wt.woff') format('woff'),
+    url('../../fonts/TitilliumText14L-250wt.eot') format('eot');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Titillium 800wt';
-  src: url('../../fonts/TitilliumText14L-800wt.woff2') format('woff2'), url('../../fonts/TitilliumText14L-800wt.woff') format('woff'), url('../../fonts/TitilliumText14L-800wt.eot') format('eot');
+  src: url('../../fonts/TitilliumText14L-800wt.woff2') format('woff2'),
+    url('../../fonts/TitilliumText14L-800wt.woff') format('woff'),
+    url('../../fonts/TitilliumText14L-800wt.eot') format('eot');
   font-weight: normal;
   font-style: normal;
 }

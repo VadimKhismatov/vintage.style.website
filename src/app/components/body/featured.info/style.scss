@@ -1,0 +1,102 @@
+@import '../../../../scss/base/helpers.scss';
+
+.f-info_component {
+  padding: 0 10px;
+  border-bottom: 1px solid #393b3d;
+  & .content {
+    position: relative;
+
+    & .title_block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 12px 4px 12px;
+      position: absolute;
+      top: -31px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.66), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.22);
+      background-color: $mainbg2;
+
+      & .arrow {
+        position: static;
+        width: 9px;
+        height: 16px;
+        font-size: 0px;
+        background: transparent;
+        border: none;
+        &--prev {
+          background-image: url('../../../../icons/br_prev.png');
+        }
+        &--next {
+          background-image: url('../../../../icons/br_next.png');
+        }
+      }
+
+      & .title {
+        padding: 0 31px;
+        font-family: $regular1;
+        font-size: em(16);
+        color: #fff;
+      }
+    }
+
+    & .slider_wrap {
+      padding: 40px 0 33px 0;
+      & .slide {
+        display: flex;
+
+        & .images {
+          display: flex;
+          & .image {
+            width: 120px;
+            height: 98px;
+            margin: 0 10px;
+            padding: 5px;
+            background-color: $mainbg;
+            box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.46), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.22);
+            & img {
+              width: 100%;
+            }
+          }
+        }
+
+        & .description {
+          margin: 0 0 0 19px;
+
+          & .top {
+            display: flex;
+
+            & .icon_wrap {
+              margin: 4px 0 0 0;
+            }
+            & .titles {
+              margin: 0 0 0 12px;
+              & h4 {
+                font-family: $semibold;
+                font-size: em(18);
+                color: $mainbg;
+              }
+              & p {
+                margin: 1px 0 0 1px;
+                font-family: $regular5;
+                font-size: em(12);
+                color: #646363;
+              }
+            }
+          }
+
+          & .bottom {
+            margin: 10px 0 0 0;
+            line-height: 15px;
+            font-family: $regular3;
+            font-size: em(13);
+            color: $textinput;
+          }
+        }
+      }
+    }
+  }
+}

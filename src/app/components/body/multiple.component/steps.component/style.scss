@@ -1,0 +1,9 @@
+@import '../../../../../scss/base/helpers.scss';
+
+.steps_component {
+  padding: 0 20px;
+  & > .content {
+    display: flex;
+    justify-content: space-between;
+  }
+}

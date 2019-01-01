@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './style.scss';
 import image from '../../../images/badges.png';
+
 class FeaturedImages extends Component {
   render() {
     return (

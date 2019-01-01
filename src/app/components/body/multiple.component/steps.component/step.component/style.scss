@@ -1,0 +1,107 @@
+@import '../../../../../../scss/base/helpers.scss';
+
+.step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 260px;
+  margin: 0 17px;
+
+  & .circle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 96px;
+    margin: -71px 0 0 0;
+    border-radius: 50%;
+    box-shadow: inset 0px 2px 0px 0px rgba($color: #000000, $alpha: 0.29), 0px 0px 0px 5px rgba(82, 39, 20, 0.2);
+    background-color: $mainbg;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      border-radius: 50%;
+      background-image: radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 100%);
+      opacity: 0.13;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: url('../../../../../../images/step_circle_noise.png') no-repeat center;
+      opacity: 0.33;
+    }
+
+    & .inner {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      box-shadow: 0px 0px 3px 0px rgba($color: #000000, $alpha: 0.66);
+
+      &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-image: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+        opacity: 0.01;
+      }
+      & img {
+        position: relative;
+        z-index: 1;
+      }
+    }
+  }
+
+  & .body {
+    padding: 22px 26px 0 26px;
+    & .title {
+      font-family: $regular1;
+      font-size: em(18);
+      font-weight: normal;
+      text-align: center;
+      color: $mainbg;
+      text-transform: uppercase;
+    }
+
+    & .text {
+      margin: 3px 0 0 0;
+      font-family: $regular3;
+      font-size: em(13);
+      color: $textinput;
+      text-align: center;
+      line-height: 1.23;
+    }
+  }
+
+  & .more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 27px;
+    margin: 19px 0 0 0;
+    font-family: $regular3;
+    font-size: em(13);
+    color: $textmain;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 1px $mainbg2, inset 0px 1px 0px 0px rgba($color: #ffffff, $alpha: 0.34);
+    background-color: $mainbg2;
+  }
+}

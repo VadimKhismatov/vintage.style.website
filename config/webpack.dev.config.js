@@ -2,10 +2,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = paths => {
   return {
     devtool: 'source-map',
-    devServer: {
-      port: 8080,
-      hot: true,
-    },
     module: {
       rules: [
         {
